@@ -6,7 +6,36 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+/* It's work for flexible section */
 .flexible-container{
     display: flex;
     border-bottom: 150px ;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+
+/* 1st section */
+
+.half-width{
+    width: 50%;
+    padding-left: 5% ;
+}
+.half-width img{
+    width: 80%;
+}
+
+.hire-me-link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5%;
+}
+
+/* 2nd section */
+
