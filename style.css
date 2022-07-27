@@ -18,8 +18,11 @@ h1{
 h2{
     font-size: 30px;
 }
+.orange-color{
+    color: orange;
+}
 
-/* 1st section */
+/* 1st section & 2nd section */
 
 .half-width{
     width: 50%;
@@ -37,5 +40,37 @@ h2{
     border-radius: 5%;
 }
 
-/* 2nd section */
+.dream-big{
+    background-position: right;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+}
 
+/* 3nd "experience" section */
+
+
+.experience-area{
+    background-image: url(images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+.experience-item{
+    
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    padding-bottom: 1%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 4%;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+}
